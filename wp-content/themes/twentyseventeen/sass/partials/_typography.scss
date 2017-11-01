@@ -1,0 +1,69 @@
+h2, h3
+{
+	font-family: $secondary-font;
+}
+
+h4, h5, p, a, li
+{
+	font-family: $primary-font;
+}
+
+h2
+{
+	font-size: 56px;
+	line-height: 72px;
+}
+
+h3 
+{
+	font-size: 40px;
+	line-height: 52px;
+	padding-top: 0;
+}
+
+h4 
+{
+	font-size: 32px;
+	line-height: 38px;
+}
+
+h5 
+{
+	font-size: 20px;
+}
+
+p 
+{
+	font-size: 18px;
+	line-height: 23px;
+	font-weight: 300;
+}
+
+a, a:hover, a:focus
+{
+	text-decoration: none;
+}
+
+.small-title
+{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.sub-heading
+{
+	font-size: 24px;
+	font-family: $primary-font;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+.blue
+{
+	color: $secondary-color;
+}
+
+.grey
+{
+	color: #828282;
+}

@@ -415,8 +415,9 @@ function twentyseventeen_scripts() {
 	// Theme stylesheet.
 	wp_enqueue_style( 'twentyseventeen-style', get_stylesheet_uri() );
 	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '1.0', 'all');
-    wp_enqueue_style('custom', get_template_directory_uri() . '/css/custom.css', array(), '1.0', 'all');
-    wp_enqueue_style('open-sans', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700', array(), '1.0', 'all');
+   // wp_enqueue_style('custom', get_template_directory_uri() . '/css/custom.css', array(), '1.0', 'all');
+    wp_enqueue_style('sass-style', get_template_directory_uri() . '/build/css/style.min.css', array(), '1.0', 'all');
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=PT+Sans|Roboto:100,300,400,700', array(), '1.0', 'all');
     wp_enqueue_style( 'slick', 'https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css', array() );
     wp_enqueue_style( 'slick-theme', 'https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css', array() );
     wp_enqueue_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array() );
@@ -570,3 +571,7 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
+
+
+remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );

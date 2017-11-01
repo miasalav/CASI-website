@@ -10,11 +10,15 @@ jQuery(document).ready(function($){
       $('.mobile-nav-container').css('display', 'none');
     });
 
-    $('.landing-content').backstretch([
-     "wp-content/uploads/2017/09/1.jpg",
-     "wp-content/uploads/2017/09/3.jpg",
-  
-    ], {duration: 2000, fade: 1050});
+
+    $('.landing-news-carousel').slick({
+
+    	slidesToShow: 1,
+    	dots: true
+
+    });
+
+    
 
    
 

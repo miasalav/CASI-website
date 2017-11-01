@@ -7,24 +7,24 @@ sass = require('gulp-sass')
 autoprefixer = require('gulp-autoprefixer'),
 cssnano = require('gulp-cssnano'),
 
-gulp.task("js", function(){
+gulp.task("JS", function(){
     //targeting files 
     //gulp.src('./**/*.js') // - looks for all js files in the folder and goes into subfolders if available
-    gulp.src('./js/*.js')
+    gulp.src('js/*.js')
     //condenses code into one line
     .pipe(uglify())
     .pipe(rename({extname: ".min.js"}))
     .pipe(gulp.dest('./build/js'));
 });
 
-gulp.task("css", function(){
+gulp.task("CSS", function(){
     //targeting files 
     //gulp.src('./**/*.js') // - looks for all js files in the folder and goes into subfolders if available
-    gulp.src('./css/*.css')
+    gulp.src('css/*.css')
     //condenses code into one line
     .pipe(cssUglify())
     .pipe(rename({extname: ".min.css"}))
-    .pipe(gulp.dest('.build/css'));
+    .pipe(gulp.dest('./build/css'));
 });
 
 gulp.task("conCSS", function(){
@@ -50,7 +50,8 @@ gulp.task('sass', function() {
 });
 
 gulp.task("watch", function(){
-    gulp.watch('./js/*.js',['js'])
-    gulp.watch('./css/*.css',['css'])
+    //gulp.watch('js/*.js',['JS'])
+    gulp.watch('css/*.css',['CSS'])
     gulp.watch('sass/**/*.scss',['sass'])
+    //gulp.watch('build/css/*.css',['conCSS'])
 });

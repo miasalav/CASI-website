@@ -1,0 +1,160 @@
+/** Landing content **/
+
+.landing-content
+{
+	background-color: $dark-base-color;
+}
+
+.landing-content p, .landing-content h2, .landing-content h3 
+{
+	color: $light-base-color;
+}
+
+.landing-top
+{
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.value-item
+{
+	padding-right: 30px; 
+
+	.number
+	{
+		position: relative;
+		height: 40px;
+		width: 30px;
+		i 
+		{
+			color: $light-base-color;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		span
+		{
+			color: $light-base-color;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			font-weight: 100;
+		}
+	}
+
+	p 
+	{
+		margin-top: 20px;
+	}
+}
+
+.event-card
+{
+	height: 300px;
+
+	.img
+	{
+		background-size: cover;
+		background-position: center;
+	}
+
+	.text 
+	{
+		background-color: white;
+		padding: 40px;
+
+		p
+		{
+			color: black;
+		}
+	}
+}
+
+.landing-join-section
+{
+	background-color: $primary-color;
+
+	.text 
+	{
+		width: 400px;
+	
+		h3, p
+		{
+			color: $primary-text-color;
+			text-align: center;
+		}
+
+		.btn 
+		{
+			background-color: $secondary-color;
+			color: white;
+			display: block;
+			margin: 0 auto;
+			width: 150px;
+			margin-top: 20px;
+		}
+	}
+
+
+}
+
+.landing-team-section
+{
+	background-color: white;
+
+	.text
+	{
+		margin-bottom: 50px; 
+		text-align: center;
+
+		h3, p
+		{
+			color: $primary-text-color;
+		}
+
+	}
+
+	.team-member-container
+	{	
+		
+		.img
+		{
+			width: 150px;
+			height: 150px;
+			border-radius: 100px;
+			background-color: $primary-color;
+			display: block;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+
+			.overlay
+			{
+				height: 100%;
+				width: 100%;
+				background-color: black;
+				display: none;
+				position: absolute;
+			}
+		}
+
+		.img:hover
+		{
+			.overlay
+			{
+				display: block;
+			}
+		}
+
+		p 
+		{
+			color: $primary-text-color;
+			text-align: center;
+			margin-top: 30px;
+		}
+	}
+
+
+}
+

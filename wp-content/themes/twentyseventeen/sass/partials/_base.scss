@@ -1,0 +1,66 @@
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12
+{
+	padding: 0;
+}
+
+.section-container
+{
+	padding-left: 175px;
+	padding-right: 175px;
+}
+
+.vertical-padding
+{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.btn 
+{
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: $primary-text-color;
+	background-color: $primary-color;
+	font-weight: 400;
+}
+
+.blue-btn
+{
+	background-color: $secondary-color;
+	color: white;
+}
+
+.short-hr 
+{
+	border: 1px solid $light-base-color;
+    width: 35px;
+    margin-left: 0;
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    line-height: 52px;
+ 
+}
+
+.yellow-hr
+{
+	border: 2px solid $primary-color;
+	width: 100%;
+}
+
+.yellow-link 
+{
+	color: $primary-color;
+	font-weight: 500;
+}
+
+.section-title-container
+{
+	margin-bottom: 30px;
+}
+
+.section-title 
+ {
+ 	display: inline;
+ 	padding-top: 0;
+ }

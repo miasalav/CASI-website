@@ -1,0 +1,18 @@
+@import "partials/variables";
+@import "partials/base";
+@import "partials/typography";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/landing";
+@import "partials/conference";
+@import "partials/events";
+@import "partials/membership";
+
+
+
+@mixin vendor-prefixes($property, $value) {
+        -webkit-#{$property}: $value;
+        -moz-#{$property}: $value;
+        -ms-#{$property}: $value;
+        -o-#{$property}: $value;
+}

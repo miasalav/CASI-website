@@ -1,0 +1,49 @@
+footer
+{
+	background-color: #F8F8F8;
+
+	p 
+	{
+		font-family: $primary-font;
+		font-weight: normal;
+	}
+
+	.questions
+	{
+		p 
+		{
+			width: 50%;
+			padding-right: 30px;
+		}
+	}
+
+	.office-hours
+	{
+		margin-top: 50px;
+	}
+
+	.footer-bottom
+	{
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+		ul 
+		{
+			list-style-type: none;
+
+			li 
+			{
+			    color: $secondary-text-color;
+			    font-size: 20px;
+			    padding-bottom: 15px;
+			    font-weight: 100;
+
+			    a
+			    {
+			    	color: $secondary-text-color;
+			    	font-weight: 700;
+			    }
+			}
+		}
+	}
+}
