@@ -1,3 +1,45 @@
+.events-content
+{
+	background-color: $dark-base-color;
+
+
+	.top-section
+	{
+		padding-top: 300px;
+		padding-bottom: 200px;
+		position: relative;
+		overflow: hidden;
+
+		.circle-1 
+		{
+			position: absolute;
+		    top: -520px;
+		    right: 45%;
+		    height: 1150px;
+		    z-index: 3;
+		    opacity: 1;
+		}
+
+		.text 
+		{
+			//opacity: 0;
+			z-index: 5;
+		}
+
+		.description 
+		{
+			z-index: 5;
+		}
+	}
+}
+
+
+.events-content p, .events-content h2, .events-content h3 
+{
+	color: $light-base-color;
+}
+
+
 .featured-event
 {
 	background-color: white;
@@ -5,6 +47,9 @@
 	.img 
 	{
 		background-color: black;
+		height: 300px;
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 
 	.text 
@@ -35,6 +80,7 @@
 		{
 			height: auto;
 			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+			margin-right: 30px;
 
 			.img 
 			{

@@ -1,0 +1,424 @@
+@media (max-width: 1600px){
+
+	.landing-content
+	{
+		.circle-1 
+		{
+		    right: -360px;
+		}
+
+		.radial-gradient
+		{
+		    right: 700px;
+		}
+	}
+
+
+}
+
+
+@media (max-width: 1400px){
+
+	.landing-content
+	{
+		.circle-1 
+		{
+			position: absolute;
+		    top: -200px;
+		    right: -450px;
+		    height: 1200px;
+		    z-index: 3;
+		}
+
+		.radial-gradient
+		{
+			position: absolute;
+		    right: 450px;
+		    height: 500px;
+		    z-index: 2;
+		    top: 150px;
+		}
+	}
+
+	.section-container
+	{
+		padding-left: 125px;
+		padding-right: 125px;
+	}
+
+	header
+	{
+		.header-logo
+		{
+			a
+			{
+				width: 175px;
+			}
+		}
+
+		.desktop-menu
+		{
+			ul 
+			{
+				li 
+				{
+					a
+					{
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+
+	
+}
+
+
+@media (max-width: 1200px){
+
+	.section-container
+	{
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+
+	.landing-top
+	{
+		.description
+		{
+			margin-top: 30px;
+		}
+	}
+
+	
+}
+
+
+@media (max-width: 991px){
+
+	.landing-content
+	{
+		.circle-1 
+		{
+			position: absolute;
+		    top: -200px;
+		    right: -350px;
+		    height: 900px;
+		    z-index: 3;
+		}
+
+		.radial-gradient
+		{
+			position: absolute;
+		    right: 375px;
+		    height: 300px;
+		    z-index: 2;
+		    top: 150px;
+		}
+	}
+
+	.conference-content
+	{
+
+		.circle-1 
+		{
+		    left: -600px;
+		 }
+
+		.radial-gradient
+		{
+		    left: 330px;
+		}
+
+	}
+
+	.vertical-padding
+	{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.section-container
+	{
+		padding-left:  70px;
+		padding-right: 70px;
+	}
+
+	.section-title
+	{
+		font-size: 42px;
+		line-height: 52px;
+	}
+
+	.landing-top
+	{
+		padding-top: 200px;
+		padding-bottom: 150px;	
+
+	}
+
+	.events-content, .membership-content
+	{
+		.top-section
+		{
+			padding-top: 200px;
+			padding-bottom: 150px;
+
+
+			.circle-1 
+			{
+				position: absolute;
+			    top: -420px;
+			    right: 45%;
+			    height: 1000px;
+	
+			}
+
+		}
+	}
+}
+
+@media (max-width: 767px){
+
+	.landing-content
+	{
+		.circle-1 
+		{
+			position: absolute;
+		    top: -200px;
+		    right: -300px;
+		    height: 700px;
+		    z-index: 3;
+		}
+
+		.radial-gradient
+		{
+			position: absolute;
+		    right: 200px;
+		    height: 300px;
+		    z-index: 2;
+		    top: 100px;
+		}
+	}
+
+	p 
+	{
+		font-size: 16px;
+	}
+
+	.vertical-padding
+	{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.section-container
+	{
+		padding-left:  50px;
+		padding-right: 50px;
+	}
+
+	.section-title
+	{
+		font-size: 34px;
+		line-height: 44px;
+	}
+
+	.top-section
+	 {
+	 	p 
+	 	{
+	 		font-size: 18px;
+	 		line-height: 26px;
+	 	}
+	 }
+
+	.value-item:nth-child(2), .value-item:nth-child(3), .value-item:nth-child(5)
+	{
+		margin-top: 0;
+	}
+
+	.landing-top
+	{
+		padding-top: 150px;
+		padding-bottom: 100px;	
+
+	}
+
+	.publications
+	{
+		.text
+		{
+			h3, p
+			{
+				text-align: left;
+			}
+
+		}
+	}
+
+	.featured-event 
+	{
+		.text 
+		{
+			margin-top: 30px;
+
+			.btn 
+			{
+				margin-top: 0;
+			}
+		}
+
+
+	}
+
+	.conference-content
+	{
+
+		.circle-1 
+		{
+			top: -380px;
+		    left: -600px;
+		    height: 1000px;
+		 }
+
+		.radial-gradient
+		{
+		    left: 170px;
+		    height: 350px;
+		}
+
+	}
+
+	.events-content
+	{
+		.circle-1 
+		{
+			right: 10%;
+		}
+	}
+
+
+	footer
+	{
+		.questions
+		{
+			p 
+			{
+				width: 100%;
+				padding-right: 30px;
+			}
+
+			.btn-container
+			{
+				width: 100%;
+			}
+		}
+	
+	}
+
+}
+
+
+@media (max-width: 576px){
+
+	.landing-content
+	{
+		.circle-1 
+		{
+		    top: -200px;
+		    right: -400px;
+		
+		}
+
+		.radial-gradient
+		{
+		
+		    right: 100px;
+		    height: 300px;
+	
+		}
+	}
+
+	.landing-events-carousel 
+	{
+		.img 
+		{
+			height: 200px;
+		}
+
+		p 
+		{
+			font-size: 14px;
+		}
+	}
+
+	.section-container
+	{
+		padding-left:  30px;
+		padding-right: 30px;
+	}
+
+	.conference-content
+	{
+
+		.circle-1 
+		{
+		    left: -700px;
+		 }
+
+		.radial-gradient
+		{
+		    left: 70px;
+		}
+
+		.landing-top
+		{
+			.btns 
+			{
+				a
+				{
+					margin-bottom: 15px;
+					display: block;
+					text-align: center;
+				}
+			}
+		}
+
+	}
+
+	.conference-blurb 
+	{
+		p 
+		{
+			margin-bottom: 15px;
+		}
+
+		.btn 
+		{
+			margin-left: 0;
+		}
+	}
+
+	.events-content, .membership-content
+	{
+		.top-section
+		{
+			padding-top: 150px;
+			padding-bottom: 100px;
+
+
+			.circle-1 
+			{
+				position: absolute;
+			    top: -320px;
+			    right: 35%;
+			    height: 800px;
+	
+			}
+
+		}
+	}
+
+}

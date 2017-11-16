@@ -1,3 +1,43 @@
+.membership-content
+{
+	background-color: $dark-base-color;
+
+
+	.top-section
+	{
+		padding-top: 300px;
+		padding-bottom: 200px;
+		position: relative;
+		overflow: hidden;
+
+		.circle-1 
+		{
+			position: absolute;
+		    top: -520px;
+		    right: 45%;
+		    height: 1150px;
+		    z-index: 3;
+		    opacity: 1;
+		}
+
+		.text 
+		{
+			//opacity: 0;
+			z-index: 5;
+		}
+
+		.description 
+		{
+			z-index: 5;
+		}
+	}
+}
+
+.membership-content p, .membership-content h2, .membership-content h3 
+{
+	color: $light-base-color;
+}
+
 .membership-benefits
 {
 	background-color: white;

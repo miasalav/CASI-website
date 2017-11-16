@@ -24,7 +24,7 @@
 					<h3>Contact Us</h3>
 					<div class="questions d-flex flex-wrap">
 						<p>If you have questions about membership, sponsorships, or just want to reach out, feel free to message us.</p>
-						<div style="width: 50%;"><a class="blue-btn btn" href="#">Email casi@ryerson.ca</a></div>
+						<div class="btn-container"><a class="blue-btn btn" href="#">Email casi@ryerson.ca</a></div>
 					</div>
 
 					<div class="office-hours">
@@ -40,7 +40,7 @@
 				<hr class="yellow-hr">
 
 				<div class="footer-bottom d-flex flex-wrap col-12">
-					<div class="col-md-4"></div>
+					<div class="col-md-4">PLACEHOLDER</div>
 					<div class="col-md-4 footer-menu">
 						<ul>
 							<li><a href="#">Home</a></li>

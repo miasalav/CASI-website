@@ -36,7 +36,7 @@
 									'theme_location'  => 'primary',
 									'container_class' => 'd-flex desktop-menu',
 									'container_id'    => '',
-									'menu_class'      => 'nav navbar-nav d-flex flex-row hidden-md-down',
+									'menu_class'      => 'nav navbar-nav d-flex flex-row hidden-sm-down',
 									'fallback_cb'     => '',
 									'menu_id'         => 'main-menu',
 									'menu'		      => 'Main Menu',

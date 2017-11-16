@@ -4,7 +4,33 @@
 .conference-content
 {
 	background-color: $dark-base-color;
+	position: relative;
+	overflow: hidden;
+
+	.circle-1 
+	{
+		position: absolute;
+	    top: -480px;
+	    left: -380px;
+	    height: 1200px;
+	    z-index: 3;
+	    opacity: 0;
+	}
+
+	.radial-gradient
+	{
+		position: absolute;
+	    left: 540px;
+	    height: 400px;
+	    z-index: 2;
+	    top: 100px;
+	    opacity: 0;
+	}
+
 }
+
+
+
 
 .conference-content .landing-top p, .conference-content .landing-top h2, .conference-content .landing-top h3 
 {
@@ -16,6 +42,7 @@
 {
 	padding-top: 200px;
 	padding-bottom: 200px;
+	opacity: 0;
 
 	h2
 	{
@@ -38,6 +65,7 @@
 .about-cssa
 {
 	background-color: $primary-color;
+	z-index: 6;
 
 	.text 
 	{
@@ -67,5 +95,25 @@
 		font-weight: 500;
 	}
 
+}
+
+.sponsor-container
+{	
+		
+	.img
+	{
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+		background-color: $primary-color;
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 20px;
+
+	}
+
+	
 }
 
